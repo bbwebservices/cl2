@@ -753,7 +753,6 @@ function add_my_script() {
     );
 }
 
-
 function avada_scripts() {
 	if ( ! is_admin() && ! in_array( $GLOBALS['pagenow'], array( 'wp-login.php', 'wp-register.php' ) ) ) {
 		global $smof_data, $wp_styles, $woocommerce;
@@ -1017,7 +1016,20 @@ function avada_scripts() {
 }
 add_action('wp_enqueue_scripts', 'avada_scripts');
 
+
+
+wp_register_style( 'user-style', get_template_directory_uri() . '/css/user-style.css');
+
+function user_enqueue_style() {
+    wp_enqueue_style( 'user-style', get_template_directory_uri() . '/css/user-style.css' ); 
+}
+
+
+
+
 add_action( 'wp_enqueue_scripts', 'add_my_script' );
+
+add_action( 'wp_enqueue_scripts', 'user_enqueue_style' );
 
 add_filter('jpeg_quality', 'avada_image_full_quality');
 add_filter('wp_editor_set_quality', 'avada_image_full_quality');
