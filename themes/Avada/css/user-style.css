@@ -35,13 +35,16 @@ body .fusion-content-boxes {
 	margin-bottom: 10px;
 }
 
-body #wrapper .designButton {
+html body #wrapper .designButton .fusion-button {
     background-color: #809367;
 }
+
+
 
 #wrapper .designList i.large{
     font-size: 35px;
 }
+
 
 
 /**************************************
