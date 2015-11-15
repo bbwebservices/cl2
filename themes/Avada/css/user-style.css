@@ -26,7 +26,10 @@ html body .designItemContainer span h2{
     padding-bottom: 20px;
 }
 
-
+.fusion-content-boxes.content-boxes-icon-on-side .content-container.icon-large {
+    padding-left: 75px;
+    margin-top: -30px;
+}
 
 /**************************************
 Footer
