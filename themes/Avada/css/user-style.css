@@ -40,7 +40,8 @@ html body .designItemContainer .designButton .fusion-button {
 }
 
 #wrapper #designItem1 a.button.designButton{
-    background-color: #809367 !important;
+    background-color: #809367;
+    background-image: linear-gradient(to top, #809341, #809341);    
 }
 
 #wrapper .designList i.large{
