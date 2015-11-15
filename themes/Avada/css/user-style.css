@@ -39,8 +39,8 @@ html body .designItemContainer .designButton .fusion-button {
     background-color: #809367;
 }
 
-#wrapper #designItem1 a.button{
-    background-color: #809367;
+#wrapper #designItem1 a.button.designButton{
+    background-color: #809367 !important;
 }
 
 #wrapper .designList i.large{
