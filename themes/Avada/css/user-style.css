@@ -35,9 +35,14 @@ body .fusion-content-boxes {
 	margin-bottom: 10px;
 }
 
-body .designButton {
+body #wrapper .designButton {
     background-color: #809367;
 }
+
+#wrapper .designList i.large{
+    font-size: 35px;
+}
+
 
 /**************************************
 Footer
