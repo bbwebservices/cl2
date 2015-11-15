@@ -14,7 +14,7 @@ html body{
 /**************************************
 Design
 ***************************************/
-body .designItemContainer span.imageframe h2{
+html body .designItemContainer span h2{
     text-align: center;
     font-size: 30px;
     padding-top: 10px;
