@@ -19,7 +19,11 @@ html body .designItemContainer span h2{
     font-size: 30px;
     padding-top: 10px;
 }
-
+h2.designTitle{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
 
 
 
