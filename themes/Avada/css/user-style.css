@@ -31,6 +31,10 @@ html body .designItemContainer span h2{
     margin-top: -30px;
 }
 
+body .fusion-content-boxes {
+	margin-bottom: 10px;
+}
+
 /**************************************
 Footer
 ***************************************/
