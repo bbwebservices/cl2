@@ -39,7 +39,9 @@ html body .designItemContainer .designButton .fusion-button {
     background-color: #809367;
 }
 
-#wrapper #designItem1 a.button.designButton{
+#wrapper #designItem1 a.button.designButton,
+#wrapper #designItem2 a.button.designButton,
+#wrapper #designItem3 a.button.designButton{
     background-color: #809367;
     background-image: linear-gradient(to top, #809341, #809341);    
 }
