@@ -6,8 +6,34 @@ Base Styles
 html body{
 	background-color: #809367;
 }
+html body {
+    margin: 0;
+    color: #747474;
+    min-width: 320px;
+    -webkit-text-size-adjust: 100%;
+    font: 13px/20px 'PTSansRegular', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    font-stretch: normal;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: PTSansRegular, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
 
 
+#main h2 {
+    font: 18px/20px 'MuseoSlab500Regular', arial, helvetica, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 200;
+    font-stretch: normal;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: MuseoSlab500Regular, arial, helvetica, sans-serif;
+        font-weight: 300;
+}
 
 
 
