@@ -48,8 +48,8 @@ html body .designItemContainer .designButton .fusion-button {
 #wrapper #designWrapper #designItem1 a.button.designButton,
 #wrapper #designWrapper #designItem2 a.button.designButton,
 #wrapper #designWrapper #designItem3 a.button.designButton{
-    background-color: #809367;
-    background-image: linear-gradient(to top, #809341, #809341);    
+    background-color: #00adef;
+    background-image: linear-gradient(to top, #00adef, #00adef);    
 }
 
 #wrapper .designList i.large{
