@@ -22,7 +22,7 @@
 		buttonShow.click(function(){
 			console.log('woo');
 
-			if($(this).hasClass("formOpen")){
+			if($(this).siblings(".formHider").hasClass("formOpen")){
 				closeForm($(this).siblings(".formHider"));
 			}else{
 				openForm($(this).siblings(".formHider"));
