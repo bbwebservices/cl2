@@ -36,6 +36,28 @@ html body {
 }
 
 
+html body .gform_wrapper .gform_button{
+    background: #809367;
+    background-image: linear-gradient( to top,#809367, #809367 );
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb( 128, 147, 103 );    
+}
+
+html body .fusion-content-boxes.content-boxes-icon-on-top .heading img {
+    margin-bottom: 20px;
+    height: 65px;
+    width: auto;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
 
 /**************************************
 Printers
@@ -84,16 +106,15 @@ html body .designItemContainer .designButton .fusion-button {
     background-color: #809367;
     background-image: linear-gradient(to top, #809341, #809341);    
 }
-#wrapper #designWrapper #designItem1 a.button.designButton,
-#wrapper #designWrapper #designItem2 a.button.designButton,
-#wrapper #designWrapper #designItem3 a.button.designButton{
-    background-color: #00adef;
-    background-image: linear-gradient(to top, #00adef, #00adef);    
-}
 
 #wrapper .designList i.large{
     font-size: 35px;
 }
+
+
+/**************************************
+LABELS
+***************************************/
 
 body #wrapper a.labelsButton.fusion-button{
     background-color: #00adef;
@@ -105,6 +126,13 @@ body #wrapper a.labelsButton.fusion-button:hover{
     background-image: linear-gradient(to top, #00adef, #00adef);    
 }
 
+#wrapper #designWrapper #designItem1 a.button.designButton,
+#wrapper #designWrapper #designItem2 a.button.designButton,
+#wrapper #designWrapper #designItem4 a.button.designButton,
+#wrapper #designWrapper #designItem3 a.button.designButton{
+    background-color: #00adef;
+    background-image: linear-gradient(to top, #00adef, #00adef);    
+}
 /**************************************
 Footer
 ***************************************/

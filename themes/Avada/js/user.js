@@ -31,7 +31,7 @@
 
 		function openForm(arr){
 			arr.addClass("formOpen");
-			arr.animate({"height":"200px"});
+			arr.animate({"height":"250px"});
 		}
 
 		function closeForm(arr){
