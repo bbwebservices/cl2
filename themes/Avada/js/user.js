@@ -21,10 +21,11 @@
 
 		buttonShow.click(function(){
 			console.log('woo');
+
 			if($(this).hasClass("formOpen")){
-				closeForm($(this));
+				closeForm($(this).siblings(".formHider"));
 			}else{
-				openForm($(this));
+				openForm($(this).siblings(".formHider"));
 			}
 		});
 
