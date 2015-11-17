@@ -21,11 +21,21 @@
 
 		buttonShow.click(function(){
 			console.log('woo');
-			openForm(formCol);
+			if($(this).hasClass("formOpen")){
+				closeForm($(this));
+			}else{
+				openForm($(this));
+			}
 		});
 
 		function openForm(arr){
+			arr.addClass("formOpen");
 			arr.animate({"height":"200px"});
+		}
+
+		function closeForm(arr){
+			arr.removeClass("formOpen");
+			arr.animate({"height":"0px"});
 		}
 
 	});
