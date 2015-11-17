@@ -82,7 +82,10 @@ html body .designItemContainer .designButton .fusion-button {
     font-size: 35px;
 }
 
-
+#wrapper .labelsButton{
+    background-color: #00adef;
+    background-image: linear-gradient(to top, #00adef, #00adef);    
+}
 
 /**************************************
 Footer
