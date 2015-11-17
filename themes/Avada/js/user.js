@@ -17,7 +17,10 @@
 
 		var buttonShow = $('.labelsButton');
 
-		buttonShow.click(openForm(formCol));
+
+		buttonShow.click(function(){
+			console.log('woo');
+		});
 
 		function openForm(arr){
 			arr.animate({"height":"200px"});
