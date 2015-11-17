@@ -13,6 +13,7 @@
 
 		var formCol = $('.formHider');
 
+		formCol.css("overflow","hidden");
 		formCol.height(0);
 
 		var buttonShow = $('.labelsButton');
@@ -20,6 +21,7 @@
 
 		buttonShow.click(function(){
 			console.log('woo');
+			openForm(formCol);
 		});
 
 		function openForm(arr){
