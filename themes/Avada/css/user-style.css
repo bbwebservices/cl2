@@ -38,6 +38,19 @@ html body {
 
 
 /**************************************
+Printers
+***************************************/
+
+#wrapper #printWrapper #printItem1 a.button.printButton,
+#wrapper #printWrapper #printItem2 a.button.printButton,
+#wrapper #printWrapper #printItem3 a.button.printButton,
+#wrapper #printWrapper #printItem4 a.button.printButton{
+    background-color: #ec008b;
+    background-image: linear-gradient(to top, #ec008b, #ec008b);    
+}
+
+
+/**************************************
 Design
 ***************************************/
 html body .designItemContainer span h2{
@@ -83,6 +96,11 @@ html body .designItemContainer .designButton .fusion-button {
 }
 
 body #wrapper a.labelsButton.fusion-button{
+    background-color: #00adef;
+    background-image: linear-gradient(to top, #00adef, #00adef);    
+}
+
+body #wrapper a.labelsButton.fusion-button:hover{
     background-color: #00adef;
     background-image: linear-gradient(to top, #00adef, #00adef);    
 }
