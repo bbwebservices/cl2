@@ -107,7 +107,7 @@ html body .designItemContainer .designButton .fusion-button {
     background-image: linear-gradient(to top, #809341, #809341);    
 }
 
-body #wrapper a.labelsButton.fusion-button {
+body #wrapper a.labelsButton.button.fusion-button {
     background-color: #809367;
     background-image: linear-gradient(to top, #809367, #809367);
 }
