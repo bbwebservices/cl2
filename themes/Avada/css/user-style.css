@@ -132,10 +132,10 @@ body #wrapper a.labelsButton.fusion-button:hover{
     background-image: linear-gradient(to top, #00adef, #00adef);    
 }
 
-#wrapper #designWrapper #designItem1 a.button.designButton,
-#wrapper #designWrapper #designItem2 a.button.designButton,
-#wrapper #designWrapper #designItem4 a.button.designButton,
-#wrapper #designWrapper #designItem3 a.button.designButton{
+body #wrapper #labelWrapper #labelsItem1 a.button.designButton,
+body #wrapper #labelWrapper #labelsItem2 a.button.designButton,
+body #wrapper #labelWrapper #labelsItem4 a.button.designButton,
+body #wrapper #labelWrapper #labelsItem3 a.button.designButton{
     background-color: #00adef;
     background-image: linear-gradient(to top, #00adef, #00adef);    
 }
