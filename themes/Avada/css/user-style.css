@@ -80,7 +80,7 @@ html body .gform_wrapper .top_label .gfield_label{
 HOME
 */
 
-.homeCont #wrapper .post-content h2{
+body #wrapper .homeCont .post-content h2{
     font-size: 40px;
 }
 
