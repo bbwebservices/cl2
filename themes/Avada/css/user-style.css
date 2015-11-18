@@ -59,6 +59,12 @@ html body .fusion-content-boxes.content-boxes-icon-on-top .heading img {
     margin-top: 20px;
 }
 
+a.button{
+    transition: 1s all;
+}
+a.button:hover{
+    color:black;
+}
 /**************************************
 Printers
 ***************************************/
@@ -109,6 +115,7 @@ html body .designItemContainer .designButton .fusion-button {
     background-color: #809367;
 }
 
+
 #wrapper #designItem1 a.button.designButton,
 #wrapper #designItem2 a.button.designButton,
 #wrapper #designItem4 a.button.designButton,
@@ -121,6 +128,7 @@ html body .designItemContainer .designButton .fusion-button {
 #wrapper #designItem2 a.button.designButton:hover,
 #wrapper #designItem4 a.button.designButton:hover,
 #wrapper #designItem3 a.button.designButton:hover{
+    color: black;
     background-color: #fff100;
     background-image: linear-gradient(to top, #fff100, #fff100);    
 }
