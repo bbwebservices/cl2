@@ -67,8 +67,8 @@ html body .gform_wrapper .gform_button{
     background-clip: initial;
     background-color: rgb( 128, 147, 103 );    
 }
-.gform_wrapper .gfield input[type=text]{
-    width: 100%;
+html body .gform_wrapper .gfield input[type=text]{
+    width: 100% !important;
 }
 /**************************************
 Printers
