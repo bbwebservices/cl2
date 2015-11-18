@@ -72,6 +72,15 @@ Printers
 }
 
 
+#wrapper #printWrapper #printItem1 a.button.printButton:hover,
+#wrapper #printWrapper #printItem2 a.button.printButton:hover,
+#wrapper #printWrapper #printItem3 a.button.printButton:hover,
+#wrapper #printWrapper #printItem4 a.button.printButton:hover{
+    background-color: #fff100;
+    background-image: linear-gradient(to top, #fff100, #fff100);    
+}
+
+
 /**************************************
 Design
 ***************************************/
@@ -102,9 +111,18 @@ html body .designItemContainer .designButton .fusion-button {
 
 #wrapper #designItem1 a.button.designButton,
 #wrapper #designItem2 a.button.designButton,
+#wrapper #designItem4 a.button.designButton,
 #wrapper #designItem3 a.button.designButton{
     background-color: #809367;
     background-image: linear-gradient(to top, #809341, #809341);    
+}
+
+#wrapper #designItem1 a.button.designButton:hover,
+#wrapper #designItem2 a.button.designButton:hover,
+#wrapper #designItem4 a.button.designButton:hover,
+#wrapper #designItem3 a.button.designButton:hover{
+    background-color: #fff100;
+    background-image: linear-gradient(to top, #fff100, #fff100);    
 }
 
 body #wrapper a.labelsButton.button.fusion-button {
