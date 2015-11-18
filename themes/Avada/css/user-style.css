@@ -45,7 +45,8 @@ html body .fusion-content-boxes.content-boxes-icon-on-top .heading img {
 }
 
 a.button{
-    transition: 1s all;
+    color: black;
+    transition: color 1s;
 }
 a.button:hover{
     color:black;
