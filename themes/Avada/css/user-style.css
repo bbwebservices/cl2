@@ -35,21 +35,6 @@ html body {
         font-weight: 300;
 }
 
-
-html body .gform_wrapper .gform_button{
-    background: #809367;
-    background-image: linear-gradient( to top,#809367, #809367 );
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: rgb( 128, 147, 103 );    
-}
-
 html body .fusion-content-boxes.content-boxes-icon-on-top .heading img {
     margin-bottom: 20px;
     height: 65px;
@@ -64,6 +49,26 @@ a.button{
 }
 a.button:hover{
     color:black;
+}
+
+/*
+FORM
+*/
+html body .gform_wrapper .gform_button{
+    background: #809367;
+    background-image: linear-gradient( to top,#809367, #809367 );
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb( 128, 147, 103 );    
+}
+.gform_wrapper .gfield input[type=text]{
+    width: 100%;
 }
 /**************************************
 Printers
