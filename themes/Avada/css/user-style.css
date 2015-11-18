@@ -122,12 +122,12 @@ body #wrapper a.labelsButton.button.fusion-button {
 LABELS
 ***************************************/
 
-body #wrapper a.labelsButton.fusion-button{
+body #wrapper #labelWrapper a.labelsButton.fusion-button{
     background-color: #00adef;
     background-image: linear-gradient(to top, #00adef, #00adef);    
 }
 
-body #wrapper a.labelsButton.fusion-button:hover{
+body #wrapper #labelWrapper a.labelsButton.fusion-button:hover{
     background-color: #00adef;
     background-image: linear-gradient(to top, #00adef, #00adef);    
 }
