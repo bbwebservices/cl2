@@ -19,9 +19,10 @@
 		var buttonShow = $('.labelsButton');
 
 
-		buttonShow.click(function(){
-			console.log('woo');
+		$('.tparrows').click(function(){console.log('woo')});
 
+
+		buttonShow.click(function(){
 			if($(this).siblings(".formHider").hasClass("formOpen")){
 				closeForm($(this).siblings(".formHider"));
 			}else{
