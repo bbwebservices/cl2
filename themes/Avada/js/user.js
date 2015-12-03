@@ -19,7 +19,9 @@
 		var buttonShow = $('.labelsButton');
 
 
-		jQuery('.tparrows').click(function(){console.log('woo')});
+		$('.rev_slider_wrapper div:eq(2)').click(function(){console.log('woo')});
+
+
 
 
 		buttonShow.click(function(){
