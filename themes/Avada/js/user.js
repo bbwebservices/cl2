@@ -19,7 +19,7 @@
 		var buttonShow = $('.labelsButton');
 
 
-		$('.tparrows').click(function(){console.log('woo')});
+		jQuery('.tparrows').click(function(){console.log('woo')});
 
 
 		buttonShow.click(function(){
