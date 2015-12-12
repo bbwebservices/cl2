@@ -1433,6 +1433,7 @@ $body_classes[] = 'mobile-menu-design-' . $smof_data['mobile_menu_design'];
 	}
 	?>
 	<div id="sliders-container">
+	<div class="hath-slider"></div>
 	<?php
 	if( is_search() ) {
 		$slider_page_id = '';
