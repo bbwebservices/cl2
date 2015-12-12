@@ -21,12 +21,13 @@ return array(
 	'minify.error.notification' => '',
 	'minify.error.notification.last' => 0,
 	'minify.error.file' => '',
-	'track.maxcdn_signup' => 0,
+	'track.maxcdn_signup' => 1449846220,
 	'track.maxcdn_authorize' => 0,
 	'track.maxcdn_validation' => 0,
 	'notes.maxcdn_whitelist_ip' => true,
 	'notes.remove_w3tc' => false,
 	'notes.hide_extensions' => array(
+		0 => 'wordpress-seo',
 	),
 	'evaluation.reminder' => 0,
 );

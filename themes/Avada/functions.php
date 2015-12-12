@@ -745,6 +745,24 @@ function avada_font_awesome_name_handler( $icon ) {
 	return $fa_icon;
 }
 
+
+function optimize_jquery() {
+if (!is_admin()) {
+wp_deregister_script('jquery');
+wp_deregister_script('jquery-migrate.min');
+wp_deregister_script('comment-reply.min');
+$protocol='http:';
+if($_SERVER['HTTPS']=='on') {
+$protocol='https:';
+}
+wp_register_script('jquery', $protocol.'//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js', false, '3.6', true);
+
+wp_enqueue_script('jquery');
+}
+}
+add_action('template_redirect', 'optimize_jquery');
+
+
 function add_my_script() {
     wp_enqueue_script(
         'user', // name your script so that you can attach other scripts and de-register, etc.
