@@ -21,7 +21,7 @@
 
 		$('.rev_slider_wrapper div:nth-child(2)').click(function(){console.log('woo')});
 
-
+		$('#rev_slider_20_1_wrapper .tp-rightarrow').click(function(){console.log("working")});
 
 
 		buttonShow.click(function(){

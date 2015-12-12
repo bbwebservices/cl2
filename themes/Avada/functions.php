@@ -840,9 +840,9 @@ function avada_scripts() {
 			}
 		}
 
-		wp_deregister_script( 'jquery.flexslider' );
-		wp_register_script( 'jquery.flexslider', $template_directory . '/js/jquery.flexslider-min.js', array(), $theme_info->get( 'Version' ), true);
-		wp_enqueue_script( 'jquery.flexslider' );
+		// wp_deregister_script( 'jquery.flexslider' );
+		// wp_register_script( 'jquery.flexslider', $template_directory . '/js/jquery.flexslider-min.js', array(), $theme_info->get( 'Version' ), true);
+		// wp_enqueue_script( 'jquery.flexslider' );
 
 		wp_deregister_script( 'jquery.fitvids' );
 		wp_register_script( 'jquery.fitvids', $template_directory . '/js/jquery.fitvids-min.js', array(), $theme_info->get( 'Version' ), true);
