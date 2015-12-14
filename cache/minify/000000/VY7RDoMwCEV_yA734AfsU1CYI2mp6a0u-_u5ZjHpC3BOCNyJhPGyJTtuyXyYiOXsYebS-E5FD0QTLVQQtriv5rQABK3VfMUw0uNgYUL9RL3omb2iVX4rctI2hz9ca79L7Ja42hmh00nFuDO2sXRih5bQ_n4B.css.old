@@ -1479,7 +1479,7 @@ zoom: 1;
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }
-}.wpseo-score-icon{display:inline-block!important;float:left;width:12px!important;height:12px!important;margin:10px 10px 0 4px!important;border-radius:50%!important;background-color:#999}.wpseo-score-icon.good{background-color:#7ad03a}.wpseo-score-icon.ok{background-color:#ee7c1b}.wpseo-score-icon.bad{background-color:#dd3d36}.wpseo-score-icon.na{background-color:#999}.wpseo-score-icon.noindex{background-color:#1e8cbe}#wp-admin-bar-wpseo-menu:hover .wpseo-score-icon{background-color:#2ea2cc}/*
+}/*
 Theme Name: Avada
 Description: A business, portfolio and blog theme.
 Author: ThemeFusion
@@ -24414,22 +24414,6 @@ html body #wrapper #homeCont h2 {
 }
 
 
-html body .gform_wrapper .gfield input[type=text] {
-    width: 100% !important;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    box-shadow: none;
-    border-bottom: 2px solid darkgrey;
-    font-size: 24px;    
-}
-
-html body input[type=text]:focus, textarea:focus {
-  box-shadow: none;
-/*  padding: 3px 0px 3px 3px;
-  margin: 5px 1px 3px 0px;*/
-  border:none;
-}
 /**************************************
 Printers
 ***************************************/

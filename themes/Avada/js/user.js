@@ -11,7 +11,7 @@
 		    alert("hello");
 		});
 
-		var formCol = $('.formHider');
+		var formCol = $('.formHider2');
 
 		formCol.css("overflow","hidden");
 		formCol.height(0);
@@ -19,27 +19,81 @@
 		var buttonShow = $('.labelsButton');
 
 
-		$('.rev_slider_wrapper div:nth-child(2)').click(function(){console.log('woo')});
+		function fHeight(){
+			var formHeight = $('.form-label-page_wrapper').height() + 50;
+			return formHeight;
+		}
 
-		$('#rev_slider_20_1_wrapper .tp-rightarrow').click(function(){console.log("working")});
+		$(window).resize(function(){
+		    fHeight();
+		});		
 
+
+		$(document).ready(function(){
+			$('.tp-rightarrow').click(function(e){
+				e.preventDefault();
+				console.log(window.location.pathname)
+				if (window.location.pathname == '/labels/'){
+					window.location.href = '/design/'				
+				}
+				else if (window.location.pathname == '/design/'){
+					window.location.href = '/printers/'
+				}
+				else if (window.location.pathname == '/printers/'){
+					window.location.href = '/labels/'
+				}
+			});
+
+				
+			$('.tp-leftarrow').click(function(e){
+				e.preventDefault();
+				console.log(window.location.pathname)
+				if (window.location.pathname == '/labels/'){
+					window.location.href = '/printers/'			
+				}
+				else if (window.location.pathname == '/design/'){
+					window.location.href = '/labels/'
+				}
+				else if (window.location.pathname == '/printers/'){
+					window.location.href = '/design/'	
+				}	
+			});	
+			
+
+			$('.headerIcon img').each(function(e){
+				var imgSrc = $(this).attr("src");
+				console.log($('.formImg:eq(' + e + 1 + ')'))
+				$('.formImg:eq(' + e + ')').css({"background-image": "url("+imgSrc+") no-repeat center","background": "url("+imgSrc+") no-repeat center", "background-size":"60%"});
+			})
+
+			$('.formImg').click(function(){
+
+				if($(this).hasClass('formBgSelect')){
+					$(this).removeClass('formBgSelect');
+				} else {
+					$(this).addClass('formBgSelect');
+				}
+			})
+
+		});
+			
 
 		buttonShow.click(function(){
-			if($(this).siblings(".formHider").hasClass("formOpen")){
-				closeForm($(this).siblings(".formHider"));
+			if($(this).parents().find(".formHider2").hasClass("formOpen")){
+				closeForm($(this).parents().find(".formHider2"));
 			}else{
-				openForm($(this).siblings(".formHider"));
+				openForm($(this).parents().find(".formHider2"));
 			}
 		});
 
 		function openForm(arr){
 			arr.addClass("formOpen");
-			arr.animate({"height":"250px"});
+			arr.animate({"height":fHeight()}, 1000);
 		}
 
 		function closeForm(arr){
 			arr.removeClass("formOpen");
-			arr.animate({"height":"0px"});
+			arr.animate({"height":"0px"}, 1000);
 		}
 
 	});
