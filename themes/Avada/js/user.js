@@ -66,6 +66,14 @@
 				$('.formImg:eq(' + e + ')').css({"background-image": "url("+imgSrc+") no-repeat center","background": "url("+imgSrc+") no-repeat center", "background-size":"60%"});
 			})
 
+			$('#gform_submit_button_12').click(function(e){
+							$('.headerIcon img').each(function(e){
+				var imgSrc = $(this).attr("src");
+				console.log($('.formImg:eq(' + e + 1 + ')'))
+				$('.formImg:eq(' + e + ')').css({"background-image": "url("+imgSrc+") no-repeat center","background": "url("+imgSrc+") no-repeat center", "background-size":"60%"});
+			})
+			})
+
 			$('.formImg').click(function(){
 
 				if($(this).hasClass('formBgSelect')){
