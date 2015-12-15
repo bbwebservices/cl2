@@ -62,16 +62,18 @@
 
 			$('.headerIcon img').each(function(e){
 				var imgSrc = $(this).attr("src");
-				console.log($('.formImg:eq(' + e + 1 + ')'))
-				$('.formImg:eq(' + e + ')').css({"background-image": "url("+imgSrc+") no-repeat center","background": "url("+imgSrc+") no-repeat center", "background-size":"60%"});
+				var title = $(this).parent().parent().find("h2.designTitle")[0].innerHTML;
+					// console.log()
+
+				$('.formImg:eq(' + e + ')').css({"background-image": "url("+imgSrc+") no-repeat center","background": "url("+imgSrc+") no-repeat center", "background-size":"60%"}).prepend("<h3 style='text-align:center;'>"+title+"</h3>");
 			})
 
 			$('#gform_submit_button_12').click(function(e){
-							$('.headerIcon img').each(function(e){
-				var imgSrc = $(this).attr("src");
-				console.log($('.formImg:eq(' + e + 1 + ')'))
-				$('.formImg:eq(' + e + ')').css({"background-image": "url("+imgSrc+") no-repeat center","background": "url("+imgSrc+") no-repeat center", "background-size":"60%"});
-			})
+				$('.headerIcon img').each(function(e){
+					var imgSrc = $(this).attr("src");
+					console.log($('.formImg:eq(' + e + 1 + ')').parent().find("designTitle"))
+					$('.formImg:eq(' + e + ')').css({"background-image": "url("+imgSrc+") no-repeat center","background": "url("+imgSrc+") no-repeat center", "background-size":"60%"});
+				})
 			})
 
 			$('.formImg').click(function(){
@@ -91,6 +93,7 @@
 				closeForm($(this).parents().find(".formHider2"));
 			}else{
 				openForm($(this).parents().find(".formHider2"));
+
 			}
 		});
 
