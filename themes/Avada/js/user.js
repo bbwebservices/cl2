@@ -63,7 +63,8 @@
 			$('.headerIcon img').each(function(e){
 				var imgSrc = $(this).attr("src");
 				var title = $(this).parent().parent().find("h2.designTitle")[0].innerHTML;
-					// console.log()
+					console.log(imgSrc)
+					console.log(title)
 
 				$('.formImg:eq(' + e + ')').css({"background-image": "url("+imgSrc+") no-repeat center","background": "url("+imgSrc+") no-repeat center", "background-size":"60%"}).prepend("<h3 style='text-align:center;'>"+title+"</h3>");
 			})
