@@ -81,6 +81,9 @@
 			
 
 		buttonShow.click(function(){
+			$(this).animate({"opacity": "0"}, 500,"swing", function(){
+				$(this).remove();
+			})
 			if($(this).parents().find(".formHider2").hasClass("formOpen")){
 				closeForm($(this).parents().find(".formHider2"));
 			}else{
