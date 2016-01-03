@@ -24414,6 +24414,22 @@ html body #wrapper #homeCont h2 {
 }
 
 
+html body .gform_wrapper .gfield input[type=text] {
+    width: 100% !important;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    box-shadow: none;
+    border-bottom: 2px solid darkgrey;
+    font-size: 24px;    
+}
+
+html body input[type=text]:focus, textarea:focus {
+  box-shadow: none;
+/*  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;*/
+  border:none;
+}
 /**************************************
 Printers
 ***************************************/
