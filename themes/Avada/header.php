@@ -19,7 +19,7 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.24.3/js/core/utility.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.24.3/js/components/accordion.min.js"></script>
 		<script type="text/javascript" src="https://cannabislabels.com/wp-content/uploads/2015/12/datamaps.usa_.min_.js"></script>
-		<script type="text/javascript" src="https://cannabislabels.com/wp-content/uploads/2015/12/mapTest.js"></script>
+		<script type="text/javascript" src="https://cannabislabels.com/wp-content/uploads/2016/01/mapTest.js"></script>
 	
 	<?php } ?>
 
