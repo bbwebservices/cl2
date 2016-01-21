@@ -15,6 +15,9 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.10/d3.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.24.3/js/uikit.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.24.3/js/core/utility.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.24.3/js/components/accordion.min.js"></script>
 		<script type="text/javascript" src="https://cannabislabels.com/wp-content/uploads/2015/12/datamaps.usa_.min_.js"></script>
 		<script type="text/javascript" src="https://cannabislabels.com/wp-content/uploads/2015/12/mapTest.js"></script>
 	
